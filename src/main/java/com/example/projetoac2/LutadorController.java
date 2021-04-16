@@ -22,6 +22,6 @@ public class LutadorController
     @GetMapping
     public ResponseEntity getLutadores()
     {
-        return ResponseEntity.status(200).body(repository.findAll());
+        return ResponseEntity.status(200).body(repository.findByForcaGolpe());
     }
 }

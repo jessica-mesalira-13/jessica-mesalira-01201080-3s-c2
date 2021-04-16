@@ -21,7 +21,6 @@ public class Lutador {
     @PositiveOrZero
     private Double forcaGolpe;
 
-
     private Double vida;
 
     private Integer concentracoesRealizadas;
